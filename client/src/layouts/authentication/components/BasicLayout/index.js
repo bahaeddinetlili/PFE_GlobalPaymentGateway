@@ -32,14 +32,7 @@ import Footer from "layouts/authentication/components/Footer";
 function BasicLayout({ image, children }) {
   return (
     <PageLayout>
-      <DefaultNavbar
-        action={{
-          type: "external",
-          label: "GLOBAl PAYMENT GATWEAY",
-        }}
-        transparent
-        light
-      />
+      <DefaultNavbar action={false} transparent light />
       <MDBox
         position="absolute"
         width="100%"

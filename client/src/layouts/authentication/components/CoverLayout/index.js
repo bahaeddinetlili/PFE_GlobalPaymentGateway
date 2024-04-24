@@ -18,14 +18,7 @@ import Footer from "layouts/authentication/components/Footer";
 function CoverLayout({ coverHeight, image, children }) {
   return (
     <PageLayout>
-      <DefaultNavbar
-        action={{
-          type: "external",
-          label: "GLOBAl PAYMENT GATWEAY",
-        }}
-        transparent
-        light
-      />
+      <DefaultNavbar action={false} transparent light />
       <MDBox
         width="calc(100% - 2rem)"
         minHeight={coverHeight}
